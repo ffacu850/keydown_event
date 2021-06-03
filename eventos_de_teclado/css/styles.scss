@@ -1,0 +1,26 @@
+body{
+    position: relative;
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stage{
+    position: absolute;
+    display: flex;
+    width: 80%;
+    min-height: 50vh;
+    background: #222;
+
+    .ball{
+        margin: auto;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        background: #F7DF1E;
+    }
+}
+
+
+
